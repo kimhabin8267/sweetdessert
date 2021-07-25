@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맛있는 디저트.</title>
+    <style>
+        body {
+            background-color: ivory;
+            background-position: 600px 100px;
+            background-repeat: no-repeat;
+        }
+
+        * {
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        .rtan {
+            display: block;
+            width: 200px;
+            height: 200px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.34);
+            border-radius: 200px;
+            margin: 10px;
+            background-size: cover;
+            background-position: center;
+			text-decoration: none;
+			text-align: center;
+			font-size: 32px;
+			color: white;
+            background-image: url('img/waffle.jpg');
+            margin: 80px auto 50px auto;
+        }
+
+        .title {
+            color: rgb(255, 0, 140);
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .msg {
+            color: rgb(255, 0, 140);
+            text-align: center;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .btn_back {
+            width: 150px;
+            height: 50px;
+
+            color: rgb(255, 0, 140);
+            color: rgb(255, 0, 140);
+            background-color: white;
+
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn_share {
+            width: 150px;
+            height: 50px;
+
+            color: white;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 0, 140);
+
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="rtan"></div>
+    <h1 class="title">와플이란?!</h1>
+    <p class="msg">
+        와플(waffle)은 밀가루, 버터, 달걀 등이 들어간 반죽을 격자 무늬의 와플 틀에 넣고 구워낸 납작한 케이크이다.<br/>
+        와플은 버터향과 단맛이 나는 디저트 메뉴로 요철이 촘촘하게 새겨진 와플 메이커에서<br/>
+        구워내므로 선명하게 새겨지는 격자 무늬가 특징이다.  <br/>
+        와플(waffle)은 네덜란드어 ‘바플(wafel)’에서 온 이름이다. 
+    </p>
+    <div class="btns">
+       <a href="index.html"> <button class="btn_back">돌아가기</button></a>
+        <a href="https://www.youtube.com/watch?v=VPsDQnDipo4" target="_blank"><button class="btn_share">만드는 영상보기</button></a>
+    </div>
+</body>
+</html>
